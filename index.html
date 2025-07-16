@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simcha for David ben Avraham</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Assistant:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Assistant', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+        }
+        .card-title {
+            font-family: 'Playfair Display', serif;
+        }
+        .hebrew-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.75rem;
+            color: #4a5568; /* Slate gray */
+        }
+        .decorative-line {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #a0aec0, transparent); /* Silver-gray gradient */
+            margin: 1rem 0;
+        }
+        .icon-svg {
+            width: 48px;
+            height: 48px;
+            stroke: #2c5282; /* Darker blue */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+
+    <!-- Main Invitation Card -->
+    <div class="max-w-2xl w-full bg-white rounded-xl shadow-2xl p-8 md:p-12 mx-auto border-4 border-blue-800">
+
+        <!-- Header with Hebrew Phrases -->
+        <header class="text-center mb-6">
+            <p class="hebrew-text tracking-wider">מזל טוב</p>
+            <p class="text-gray-500 text-lg">Mazel Tov!</p>
+        </header>
+
+        <!-- Main Invitation Text -->
+        <div class="text-center">
+            <h1 class="card-title text-3xl md:text-4xl text-blue-900 font-bold">
+                You are joyfully invited to a Simcha
+            </h1>
+            <p class="mt-4 text-lg text-gray-700">in honor of</p>
+            <h2 class="card-title text-4xl md:text-5xl text-blue-800 mt-2 mb-4">
+                David ben Avraham
+            </h2>
+            <p class="text-lg text-gray-700">on his conversion to Judaism</p>
+        </div>
+
+        <div class="decorative-line my-8"></div>
+
+        <!-- Event Details Section -->
+        <div class="space-y-8 md:space-y-0 md:flex md:space-x-8 text-center">
+
+            <!-- Afternoon Lunch -->
+            <div class="flex-1">
+                <div class="flex justify-center mb-3">
+                    <!-- Sun Icon -->
+                    <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+                    </svg>
+                </div>
+                <h3 class="card-title text-2xl text-blue-900 font-semibold">Kosher Lunch</h3>
+                <p class="mt-2 text-gray-700 font-semibold">1:00 PM</p>
+                <p class="mt-1 text-gray-600">Sky Terrace</p>
+                <p class="text-gray-600">1331 Maryland Ave SW, Washington DC</p>
+                <p class="mt-2 text-sm text-gray-500">Hosted by Amanda McKenna</p>
+            </div>
+
+            <!-- Evening Dinner -->
+            <div class="flex-1">
+                 <div class="flex justify-center mb-3">
+                    <!-- Moon Icon -->
+                    <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+                    </svg>
+                </div>
+                <h3 class="card-title text-2xl text-blue-900 font-semibold">Evening Dinner</h3>
+                <p class="mt-2 text-gray-700 font-semibold">7:00 PM</p>
+                <p class="mt-1 text-gray-600">
+                    <a href="https://www.oronamidc.com/" target="_blank" class="hover:text-blue-700 underline">Oro Nami</a>
+                </p>
+                <p class="text-gray-600">Kosher Sushi Restaurant</p>
+            </div>
+
+        </div>
+        
+        <div class="text-center mt-8 text-lg font-semibold text-gray-700">
+            <p>Monday, August 5th</p>
+        </div>
+
+        <div class="decorative-line my-8"></div>
+
+        <!-- RSVP Section -->
+        <div class="text-center">
+            <h3 class="card-title text-xl text-blue-900">RSVP</h3>
+            <p class="mt-2 text-gray-700">Kindly reply to Amanda McKenna by July 25th</p>
+            <p class="mt-1 text-gray-700">at <a href="tel:+12023299839" class="font-semibold hover:text-blue-700">+1-202-329-9839</a></p>
+            <p class="mt-2 text-sm text-gray-600">Please specify if you will be attending the afternoon lunch, evening dinner, or both.</p>
+        </div>
+        
+        <!-- Footer with Hebrew Phrase -->
+        <footer class="text-center mt-8">
+            <p class="hebrew-text tracking-wider">סימן טוב ומזל טוב</p>
+            <p class="text-gray-500 text-sm">A Good Sign and Good Fortune</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
